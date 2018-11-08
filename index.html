@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>CCC</title>
     <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
     <header>
       <div class="container">
         <nav>
@@ -13,7 +13,7 @@
           <span class="nav1">registration</span>
           <span class="nav1">watch</span>
         </nav>
-        <img src="https://via.placeholder.com/80x153" alt="stuff">
+        <img src="https://via.placeholder.com/80x153" alt="stuff" id="top-image">
         <nav>
           <span class="nav1">News</span>
           <span class="nav1">experience</span>
@@ -50,43 +50,18 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin nunc vitae aliquam pellentesque. Maecenas varius odio vitae urna commodo pretium. Integer mi libero, placerat quis convallis in, iaculis ac enim. Phasellus mauris velit, dictum sed leo convallis, accumsan euismod nunc. Aenean in ligula augue. Phasellus vitae ipsum arcu. Curabitur.</p>
       </div>
     </div>
-    <ul id="slides">
-      <li class="slide showing">
-        <img class="logos" src="./images/alaska-airlines-logo.png" alt="logo">
-        <img class="logos" src="./images/worthy-main-logo.png" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-      </li>
-      <li class="slide">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="./images/BSP-black.png" alt="logo">
-        <img class="logos" src="./images/boys-and-girls-clubs-logo.png" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="./images/pacific-power.png" alt="logo">
-      </li>
-      <li class="slide">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-      </li>
-      <li class="slide">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-      </li>
-      <li class="slide">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-        <img class="logos" src="https://via.placeholder.com/264x176" alt="logo">
-      </li>
-    </ul>
+    <div class="gallery gallery-responsive portfolio_slider">
+      <div class="inner"><img class="images" src="images/BSP-black.png"></div>
+      <div class="inner"><img class="images" src="images/alaska-airlines-logo.png"></div>
+      <div class="inner"><img class="images" src="images/boys-and-girls-clubs-logo.png"></div>
+      <div class="inner"><img class="images" src="images/pacific-power.png"></div>
+      <div class="inner"><img class="images" src="images/pacific-power.png"></div>
+      <div class="inner"><img class="images" src="images/worthy-main-logo.png"></div>
+      <div class="inner"><img class="images" src="images/BSP-black.png"></div>
+      <div class="inner"><img class="images" src="images/BSP-black.png"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
     <footer class="footer">
       <div class="inner-footer">
         <div style="height: 30px"></div>
@@ -95,8 +70,8 @@
             <a href="#">2019 Poster </a><a>|</a>
             <a href="#">2017 Results </a><a>|</a>
             <a href="#">Volunteer </a><a>|</a>
-            <a href="#">contact </a><a>|</a>
-            <a href="#">Sposors </a><a>|</a>
+            <a href="#">Contact </a><a>|</a>
+            <a href="#">Sponsors </a><a>|</a>
             <a href="#">Privacy and Terms</a>
           </div>
         </nav>
