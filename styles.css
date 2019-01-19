@@ -275,7 +275,7 @@ hr{
     max-height: 250px;
     min-width: 100px;
     min-height: 75px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .stageText{
@@ -297,6 +297,11 @@ hr{
     grid-column: span 3 / auto;
 }
 
+.span-row-2 {
+    grid-row: span 2 / auto;
+}
+
+
 .stageTitle{
     margin: 20px 0 20px 0;
     text-align: center;
@@ -305,7 +310,7 @@ hr{
 
 table.paleBlueRows {
     border: 1px solid #FFFFFF;
-    width: 90%;
+    width: 95%;
     height: 300px;
     text-align: center;
     border-collapse: collapse;
@@ -355,5 +360,15 @@ table.paleBlueRows tfoot td {
 }
 
 .tableStyles{
-    margin-left: 50px;
+    margin-left: 40px;
+}
+
+.worthy-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
