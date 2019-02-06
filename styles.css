@@ -186,7 +186,8 @@ h2 {
   text-align: center;
 }
 p {
-  color: #b2babb;
+  color: #000000;
+  text-transform: none;
 }
 footer {
   width: auto;
@@ -394,6 +395,7 @@ table.paleBlueRows tfoot td {
 
 .pl-0 {
   margin-left: 40px;
+  text-transform: none;
 }
 
 .span_5_of_5 {
